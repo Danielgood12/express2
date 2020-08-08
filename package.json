@@ -1,0 +1,20 @@
+{
+  "name": "express2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "deploy": "gatsby build && gh-pages -d public -b master -r https://$GH_TOKEN@github.com/Danielgood12/express2.git"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
