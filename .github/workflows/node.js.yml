@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - run: npm ci
+    
     - run: git config --global user.email "t105360709@ntut.org.tw"
     - run: git config --global user.name "Danielgood12"
     - shell: bash
